@@ -1,0 +1,60 @@
+/* Responsive Tables */
+/* Dale Rivera */
+
+
+
+@media only screen and (max-width: 767px) {
+	.pinned { 
+		position: absolute; 
+		left: 0; 
+		top: 0; 
+		background: #fff; 
+		width: 35%; 
+		overflow:auto; 
+		border-right: 
+		1px solid #ccc; 
+		border-left: 1px solid #ccc;
+	}
+	.pinned table { 
+		display:block; 
+		border-right: none; 
+		border-left: none; 
+		width: auto; 
+		border-width:0px;
+	}
+	.pinned table th, .pinned table td { 
+	/*white-space: nowrap;*/ 
+	}
+	.pinned td:last-child { 
+		border-bottom: 0; 
+	}
+	.pinned th:first-child {
+		text-align: left !important;
+	}
+	div.table-wrapper { 
+		position: relative; 
+		margin-bottom: 20px; 
+		overflow: hidden; 
+		border-right: 1px solid #ccc; 
+	}
+	div.table-wrapper div.scrollable { 
+		margin-left: 35%; 
+	}
+	div.scrollable {
+		overflow-x: scroll;
+	}
+	.scrollable table {
+		display:block;
+		border-width:0px;
+		width: auto !important;
+	}
+	table.responsive td, table.responsive th { 
+		position: relative; 
+		/*white-space: nowrap;*/
+		/*overflow: hidden;*/ 
+	}
+	table.responsive th:first-child, table.responsive td:first-child, 		table.responsive td:first-child, table.responsive.pinned td { 
+		display: none; 
+	}
+}
+
