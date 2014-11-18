@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<title>Responsive Table Demo</title>
+		<script src="jquery.js"></script>
+		<script type="text/javascript" src="responsive-tables.js"></script>
+		<link rel="stylesheet" href="foundation.min.css">
+		<link rel="stylesheet" href="responsive-tables.css">
+	</head>
+	<body>
+		<div class = "panel row" style="background:#f9f9f9; margin-top:20px;">
+			<h1> Responsive Table Demo</h1>
+			<table class="responsive">
+			  	<thead>
+				  	<tr>
+					    <th style="width:20%">Selector</th>
+					    <th style="width:20%">Example</th>
+					    <th style="width:55%">Example description</th>
+					    <th>CSS</th>
+				  	</tr>
+				</thead>
+			  	<tbody>
+					<tr>
+				      <td>.<i>class</i></td>
+				      <td>.intro</td>
+				      <td>Selects all elements with class="intro"</td>
+				      <td>1</td>
+				  	</tr>
+					<tr>
+				      <td>#<i>id</i></td>
+				      <td>#firstname</td>
+				      <td>Selects the element with id="firstname"</td>
+				      <td>1</td>
+				  	</tr>  
+				  	<tr>
+				      <td>*</td>
+				      <td>*</td>
+				      <td>Selects all elements</td>
+				      <td>2</td>
+				  	</tr>
+				  <tr>
+				    <td><i>element</i></td>
+				    <td>p</td>
+				    <td>Selects all &lt;p&gt; elements</td>
+				    <td>1</td>
+				  </tr>
+				  <tr>
+				    <td><i>element,element</i></td>
+				    <td >div, p</td>
+				    <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+				    <td>1</td>
+				  </tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
