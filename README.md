@@ -27,13 +27,13 @@ to the table.
 
 ##Using responsive tables with dynamic content
 
-If you are first adding data dynamically with javascript, first set the class to a placeholder 
+If you are first adding data dynamically with javascript, set the class to a placeholder initially
 
 ````html 
 <table class = "will_be_responsive">
 ````
 
-Once you have changed the data, add the responsive class like so: 
+Once you have finished changing the data, add the responsive class to the table like so: 
 
 ````js 
 $(".will_be_responsive").addClass("responsive"); 
