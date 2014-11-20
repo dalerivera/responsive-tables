@@ -1,5 +1,5 @@
 #Responsive Tables
-=================
+
 A solution for responsive tables.
 
 This solution is based off of [Zurb's responsive table solution] (http://zurb.com/playground/responsive-tables), but adds some enhancements and tweaks that give tables a very user friendly behavior, and allows a developer to use responsive tables with dynamic table content. 
