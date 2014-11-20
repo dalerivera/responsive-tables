@@ -4,7 +4,9 @@ A solution for responsive tables.
 
 This solution is based off of [Zurb's responsive table solution] (http://zurb.com/playground/responsive-tables), but adds some enhancements and tweaks that give tables a very user friendly behavior, and allows a developer to use responsive tables with dynamic table content. 
 
-To make tables responsive, first add these two files to your html document. 
+#### Step 1: Download responsive-tables.js and responsive-tables.css
+
+#### Step 2: Add these files in your html document
 Note: Add the js file **AFTER** jQuery.
 
 ````html
@@ -16,6 +18,7 @@ Note: Add the js file **AFTER** jQuery.
     ...
 </head>
 ````
+#### Step 3: Add the class to your table
 To actually make the table responsive, add 
 
 ```` class = "responsive" ```` 
