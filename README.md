@@ -26,7 +26,7 @@ To actually make the table responsive, add
 to the table. 
 
 ##Using responsive tables with dynamic content
-=================
+
 If you are first adding data dynamically with javascript, first set the class to a placeholder 
 
 ````html 
