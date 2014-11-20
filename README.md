@@ -19,11 +19,7 @@ Note: Add the js file **AFTER** jQuery.
 </head>
 ````
 #### Step 3: Add the class to your table
-To actually make the table responsive, add 
-
-```` class = "responsive" ```` 
-
-to the table. 
+To actually make the table responsive, add ```` class = "responsive" ```` to the table. 
 
 ##Using responsive tables with dynamic content
 
