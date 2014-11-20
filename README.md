@@ -21,7 +21,8 @@ to the table.
 =================
 If you are first adding data dynamically with javascript, first set the class to a placeholder 
 ````html 
-class = "will_be_responsive" ````. 
+class = "will_be_responsive" 
+````. 
 Once you have changed the data, add the responsive class like so: 
 ````js 
 $(".will_be_responsive").addClass("responsive"); 
