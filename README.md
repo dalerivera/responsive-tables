@@ -8,10 +8,13 @@ To make tables responsive, first add these two files to your html document.
 Note: Add the js file **AFTER** jQuery.
 
 ````html
+<head>
 ...
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="responsive-tables.js"></script>
 <link rel="stylesheet" href="css/responsive-tables.css" />
+...
+</head>
 ````
 To actually make the table responsive, add 
 
