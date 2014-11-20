@@ -1,7 +1,7 @@
 #Responsive Tables
 
-This responsive table solution is based off of [Zurb's responsive table solution] (http://zurb.com/playground/responsive-tables), and is designed to work with the Foundation Framework, but can also work without Foundation. 
-Some enhancements and tweaks were added to Zurb's solution to make the tables beautiful and responsive right out of the box. There is no unnecessary data hiding, and users can still compare rows. 
+This responsive table solution is based off of [Zurb's responsive table solution] (http://zurb.com/playground/responsive-tables), and is designed to work with the Foundation Framework, but works just as well without it. 
+Some enhancements and tweaks were added to Zurb's solution to make the tables beautifully responsive right out of the box. There is no unnecessary data hiding, and users can still compare rows. 
 
 View a simple demo [here] (http://dalerivera.github.io/responsive-tables/).
 ### Step 1: Download responsive-tables.js and responsive-tables.css
