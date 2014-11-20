@@ -10,9 +10,9 @@ Note: Add the js file **AFTER** jQuery.
 ````html
 <head>
 ...
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="responsive-tables.js"></script>
-<link rel="stylesheet" href="css/responsive-tables.css" />
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="responsive-tables.js"></script>
+    <link rel="stylesheet" href="css/responsive-tables.css" />
 ...
 </head>
 ````
