@@ -9,11 +9,11 @@ Note: Add the js file **AFTER** jQuery.
 
 ````html
 <head>
-...
+    ...
     <script src="js/jquery.js"></script>
     <script type="text/javascript" src="responsive-tables.js"></script>
     <link rel="stylesheet" href="css/responsive-tables.css" />
-...
+    ...
 </head>
 ````
 To actually make the table responsive, add 
@@ -27,9 +27,7 @@ to the table.
 If you are first adding data dynamically with javascript, first set the class to a placeholder 
 
 ````html 
-...
 <table class = "will_be_responsive">
-...
 ````
 
 Once you have changed the data, add the responsive class like so: 
